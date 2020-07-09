@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/service_des"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/service"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:id="@+id/tuning"
+        android:src="@drawable/anker"
+        app:layout_constraintTop_toBottomOf="@id/service_des"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tuning_des"
+        app:layout_constraintStart_toEndOf="@id/tuning"
+        app:layout_constraintTop_toTopOf="@id/tuning"
+        android:text="@string/tuning"
+        android:layout_marginStart="5dp"
+        android:textSize="17sp"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:id="@+id/furniture"
+        android:src="@drawable/furniture"
+        app:layout_constraintTop_toBottomOf="@id/tuning"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/furniture_des"
+        app:layout_constraintStart_toEndOf="@id/furniture"
+        app:layout_constraintTop_toTopOf="@id/furniture"
+        android:layout_marginStart="5dp"
+        android:text="@string/furniture_des"
+        android:textSize="17sp"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:src="@drawable/polish"
+        android:id="@+id/polish"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/furniture"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/polish_des"
+        app:layout_constraintStart_toEndOf="@id/polish"
+        app:layout_constraintTop_toTopOf="@id/polish"
+        android:layout_marginStart="5dp"
+        android:text="@string/polish_des"
+        android:textSize="17sp"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_to_main"
+        app:layout_constraintTop_toBottomOf="@id/polish_des"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"
+        android:text="На главную"
+        android:background="@color/colorAccent"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

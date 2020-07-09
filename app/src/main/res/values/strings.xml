@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lesson6</string>
+    <string name="products">Товары</string>
+    <string name="services">Услуги</string>
+    <string name="aboutme">О нас</string>
+    <string name="welcomehome">Добро пожаловать!</string>
+    <string name="aboutus_string">Компания "Jackson Guitars была основана Гровером Джексоном в 1980 году.
+        В настоящее время компания принадлежит "Fender guitars". Мы производим электрогитары и бас гитары на протяжении 40 лет.
+        Полная информация на сайте jacksonguitars.com
+    </string>
+    <string name="ourproducts">Наша продукция</string>
+    <string name="jack_rr">Jackson RR1 Black</string>
+    <string name="jack_kelly">Jackson Kelly Black</string>
+    <string name="jack_solo">Jackson Soloist \n Blue Sunburst</string>
+    <string name="description">Описание продукции</string>
+    <string name="rr_des">Jackson RR1 Black- Гриф:Палисандр, Дека:Махагон, Цена: 500$</string>
+    <string name="kelly_des">Jackson Kelly Black- Гриф:Клен, Дека:Клен, Цена: 660$</string>
+    <string name="solo_des">Jackson Soloist Blue Sunburst- Гриф:Клен, Дека:Палисандр, Цена:700$</string>
+    <string name="service">Наши услуги</string>
+    <string name="tuning">Настройка прогиба грифа и \nмензуры вашего инструмента\nдля удобной игры.</string>
+    <string name="furniture_des">Замена фурнитуры \nвашего инструмента.</string>
+    <string name="polish_des">Шлифовка ладов для \nпредотвращения биения\nструн.</string>
+</resources>
